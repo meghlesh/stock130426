@@ -46,18 +46,17 @@ CSRF_TRUSTED_ORIGINS = [
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'company',
-    'accounts',
-    'inventory',
-    'django.contrib.humanize',
-    
-]
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'django.contrib.humanize',
+    'company',
+    'accounts',
+    'inventory',
+   ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     'accounts',
     'inventory',
     'django.contrib.humanize',
+    
 ]
 
 MIDDLEWARE = [
